@@ -1,0 +1,14 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+airflow_settings.yaml
+
+# Logs and caches
+logs/
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
